@@ -1,5 +1,7 @@
 
 Homework Description
+
+
 In this homework, you will implement a song playlist. “Playlist” will be a list of “Song” elements. You have to implement the “Playlist” class as a Doubly Circular Linked List (DCLL). Song class and Main class are already provided for you. You do not need to implement anything for those classes. They are straightforward classes, but before you start writing your code, make sure that you understand them correctly. You will implement several methods in the Playlist class. Then we will test your methods one by one, as you can see from the main class.If all of your methods are working fine you should see an output match from Github’s Autograding.
 Methods that you will implement are insertToEnd(), insertToIndex(), removeSong(), move() and reverseSequence() . They are all explained below. Node class and displayList method are already provided for you, do not make changes for these two classes. You can define additional helper methods in the Playlist class if you want.
 insertToEnd(Song new_song): Add a new song element to the end of the DCLL. Notice that if the DCLL is empty, this new_song will be our first song. If new_song is null, throw a NullPointerException with the message “Null song entry!”.
